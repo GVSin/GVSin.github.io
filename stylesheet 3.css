@@ -1,0 +1,69 @@
+html {
+    background-image: url(Foto/Blauw.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  	font-family: 'Iceland', cursive;
+    font-size: 40px;
+    text-align: center;
+
+    
+}
+
+h1 {
+    font-size: 70px
+    
+    
+}
+
+.container {
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+.table {
+    border: 1px solid black;
+
+}
+
+.article {
+    margin-left: 50%;
+    border-left: 1px solid black;
+    padding: 1em;
+    overflow: hidden;
+    
+}
+
+.articles {
+    float: left;
+    max-width: 50%;
+    padding: 1em;
+    margin: 0;
+    overflow: hidden;
+    
+}
+#scroll img {
+    margin: 10px 10px 0 10px;
+    
+}
+
+#scroll {
+    width: 600px;
+    height: 350px;
+    margin: 50px auto;
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+
+.row {
+   -webkit-columns: 2;
+	-webkit-column-span: 1;
+
+}
+
+.ending {
+    position: relative;
+    font-size: 20px;
+}
+

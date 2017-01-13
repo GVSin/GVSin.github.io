@@ -1,0 +1,101 @@
+html {
+    background-image: url(foto/blauw.jpg);
+  	background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Iceland', cursive;
+
+}
+
+h1 {
+    font-size: 250px;
+    position: relative;
+}
+
+.title, arrow {
+    position: relative;
+    top: 75%;
+
+}
+
+.title:hover {
+    display: block;
+    -webkit-animation-name: rotate;
+    -moz-animation-name: rotate;
+    -webkit-animation:rotate 4s linear infinite;
+    -moz-animation:rotate 4s linear infinite;
+    animation:rotate 4s linear infinite;
+}
+@-moz-keyframes rotate { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes rotate { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+
+}
+
+.container
+.bounce {
+  -webkit-animation-name: bounce;
+	-moz-animation-name: bounce;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-moz-animation-direction: alternate;
+	-webkit-animation-timing-function: eaze-in-out;
+	-moz-animation-timing-function: eaze-in-out;
+}
+@-webkit-keyframes bounce {
+	from { top:1em; }
+	to { top:2em; }
+}
+@-moz-keyframes bounce {
+	from { top:1em; }
+	to { top:2em; }
+}
+
+.arrow {
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url(http://cliparts.co/cliparts/rcj/rpd/rcjrpd9zi.png);
+    background-size: contain;
+
+}
+
+body {
+	height: 100%;
+	text-align: center;
+	width: 100%;
+
+}
+
+.hero {
+	text-align: center;
+	font-size: 40px ;
+    position: relative;;
+    top: 800px;
+
+}
+
+.text {
+	font-size: 40px;
+	text-align: center;
+    position: relative;
+    top: 1500px;
+
+}
+
+.img {
+    position: relative;
+    top: 1600px;
+
+}
+
+
+.ending {
+    position: relative;
+    top: 1800px;
+    font-size: 20px;
+}
